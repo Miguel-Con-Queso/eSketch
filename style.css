@@ -1,0 +1,23 @@
+* {
+  height: 100%;
+}
+
+#grid {
+  border: 4px solid black;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 576px;
+  width: 576px;
+}
+
+.cell {
+  border: 2px solid black;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  height: 32px;
+  width: 32px;
+}
